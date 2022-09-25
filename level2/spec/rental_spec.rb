@@ -4,7 +4,7 @@ require_relative '../app/car'
 require_relative '../app/rental'
 require 'date'
 
-describe Car do
+describe Rental do
   before do
     @car = Car.new(id: 1, price_per_day: 2000, price_per_km: 10)
   end
